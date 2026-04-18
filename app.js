@@ -3,3 +3,13 @@ const mongoos = require("mongoos")
 
 const app = express()
 
+
+app.get("/", (req, res) => {
+    return {"success": "App started successfully"}
+})
+
+
+app.listen(4000, () => {
+    console.log("Listening on port 4000")
+})
+
