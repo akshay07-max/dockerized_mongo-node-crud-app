@@ -1,5 +1,5 @@
 const express = require("express")
-const mongoos = require("mongoos")
+const mongoose = require("mongoose")
 
 const app = express()
 
